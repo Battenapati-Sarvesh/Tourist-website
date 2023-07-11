@@ -1,0 +1,206 @@
+*{
+    background-color:black;
+}
+.header{
+    height: 100%;
+    background-image: url(saru/hampi.jpg);
+    background-size: cover;
+    background-position: center;
+   /* padding-top: 20px;  */
+   padding-top: 3%;
+}
+h5{
+    color:skyblue;
+}
+h4{
+    color:#fff;
+    background-color: black;
+}
+
+#login-btn{
+    width: 10%;   
+    height: 10%;   /* 100px*/
+   /* padding: 1% 0; */    /*2px*/
+    /*outline: none !important;  */
+    border: 5% solid red;    /*2px*/
+   border-radius: 80%;    /*50px*/
+    background-color:white;
+    color:black;
+    float: right; 
+    padding-top: 0%;
+}
+#r{
+    text-align: center;
+    padding-top: 10%;        /*  260  150  55*/
+    padding-bottom: 10%;
+    font-size: 2.5rem;
+    color:white;
+}
+#t{
+    text-align: center;
+    padding-top: 10%;      /*260px*/
+    padding-bottom: 10%;    /*150px*/
+    font-size: 2.5rem;
+    color:white;
+    background-color: black;
+}
+h2{
+    text-align: center;
+    padding-top: 10%;     /*200px*/
+    font-size: 2rem; 
+    color:white;
+}
+p{
+    text-align: center;
+    color: white;
+    padding: 2%;    /* 2px*/
+    text-align: justify;
+}
+#s{
+    color: yellow;
+    size: 5%;     /*10px*/
+}
+.input-group{
+    width: 90px ;   /*90px*/
+    max-width: 500px;    /*500px*/
+    border-radius: 30px;  /*30px*/ 
+    
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border: 0 !important;
+    border-radius: 20px 0 0 20px !important;
+    margin: 2px;
+    box-shadow: none  !important;
+}
+.input-group-text {
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border:0 !important;
+    color:white !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    padding: 0 25px !important;
+}
+/*features*/
+.feature-img img{
+   width: 100%;
+}
+
+.feature-img{
+    position: relative;
+}
+i{
+    color:white;
+    position: relative;
+    text-align: justify;
+    padding-top: -10px;
+}
+h4{
+    color: white;
+    padding-top: 30px;
+    background-color: black; 
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.col-4{
+    padding-bottom: 15px;
+    background-color: black;   
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+}
+.gallery{
+    padding: 120px ; 
+    position: relative;
+    background-color: black;
+}
+.gallery img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+.gallery h4{
+    width: 200px;
+    font-weight: 600;
+    position: absolute;
+}
+#p{
+    text-align: left;
+    background-color: black;
+}
+.users-feedback{
+    padding-top: 100px 0;
+}
+#v{
+    font-size: 55px;
+    color:white;
+    text-align: center;
+}
+.user-review{
+    padding-top: 100px;
+    background-color:black;
+    text-align: center;
+    box-shadow: 0 0 10px 0 white(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+.users-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+    padding-top: 10px;
+}
+.user-review::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    padding-left: 20%;    /*35px*/
+   padding-bottom: 250px;
+   padding-top: 30px;
+   
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.footer{
+    /*padding: 100px 40px;*/
+    padding-top: 5%;
+    background-image: linear-gradient(#2d557d,#9610fd);
+    padding-bottom: 5%;  /*200px*/
+}
+.footer-logo{
+    width: 30%;     /*150px*/
+    margin-top: 0.4%;   /*15px*/
+    margin-bottom: 0.5%;   /*20px*/
+}
+.footer h4{
+    text-align: center;
+   margin-top: 5%;     /*15px*/
+    margin-bottom: 15%;   /*50px*/
+}
+.footer p{
+   /* font-size: 12px;  */
+   text-align: center;
+    padding-right: 7%; /*35px*/
+}
+footer{
+    color: #fff;
+    text-align: right;
+    padding-right: 1%;
+}
